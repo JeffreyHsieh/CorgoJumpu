@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Leap : MonoBehaviour {
 
-    private float backgroundWidth = 10.24f;
+    private float backgroundWidth = 9.6f;
 	void Start () {
 	}
 	
