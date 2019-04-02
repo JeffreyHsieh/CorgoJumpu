@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     // Player score
-    private int _score;
-    public int score
+    private float _score;
+    public float score
     {
         get
         {
@@ -56,7 +56,9 @@ public class GameManager : MonoBehaviour {
         switch (state)
         {
             case GameStates.Energized:
-                currentScore.text = _score.ToString();
+                _score += 7f * Time.deltaTime;
+                int cs = (int)_score;
+                currentScore.text = cs.ToString();
                 break;
             case GameStates.Exhausted:
                 break;

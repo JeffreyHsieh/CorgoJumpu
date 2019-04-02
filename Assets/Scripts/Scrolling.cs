@@ -15,7 +15,7 @@ public class Scrolling : MonoBehaviour {
 	
 	void Update ()
     {
-        rigidbody.velocity = new Vector2(scrollSpeed - (gameManager.score / 10), 0);
+        rigidbody.velocity = new Vector2(scrollSpeed - (gameManager.score / 100), 0);
         if (gameManager.end == true)
         {
             rigidbody.velocity = Vector2.zero;

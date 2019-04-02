@@ -631,6 +631,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114412307341549254, guid: 30f0a651af288164e9448be00c98f98c,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 862641051}
+    - target: {fileID: 114412307341549254, guid: 30f0a651af288164e9448be00c98f98c,
+        type: 3}
+      propertyPath: objectPooling
+      value: 
+      objectReference: {fileID: 686710844}
     - target: {fileID: 4101307301901630, guid: 30f0a651af288164e9448be00c98f98c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -663,16 +673,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114412307341549254, guid: 30f0a651af288164e9448be00c98f98c,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 862641051}
-    - target: {fileID: 114412307341549254, guid: 30f0a651af288164e9448be00c98f98c,
-        type: 3}
-      propertyPath: objectPooling
-      value: 
-      objectReference: {fileID: 686710844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30f0a651af288164e9448be00c98f98c, type: 3}
 --- !u!114 &549611305 stripped
@@ -1204,8 +1204,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e455827f26f6cac4dad23a2d550f5dba,
+      objectReference: {fileID: 21300000, guid: f7d259ce080492f468d673e27d06dcec,
         type: 3}
+    - target: {fileID: 212443367453617794, guid: daa1fa0a29631f94e8141b95c1b97080,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 50704912616933650, guid: daa1fa0a29631f94e8141b95c1b97080,
         type: 3}
       propertyPath: m_Constraints
